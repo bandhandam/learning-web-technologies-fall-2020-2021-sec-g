@@ -1,10 +1,8 @@
 <html>
 <head>
-	
-	
 	<title>Web page</title>
-    </head>
-    <body>
+</head>
+<body>
 	<form method="POST" action="">
 		<fieldset>
 			<legend>Profile Picture</legend>
@@ -17,15 +15,12 @@
 		</fieldset>
 	</form>
 
-  </body>
-  </html>
+</body>
+</html>
 
- <?php 
+<?php 
 
-
-  
-  
-  if(isset($_POST['submit']))
+if(isset($_POST['submit']))
 {
 	$userid= $_POST['userid'];
 	$picture= $_POST['picture'];
